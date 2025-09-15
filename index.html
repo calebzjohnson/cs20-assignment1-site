@@ -5,64 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS20 - Assignment 1: Get on the Web</title>
   <style>
-    /* Simple, teacher-friendly styling (you can change later) */
     body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.5; padding: 24px; max-width:900px; margin:auto; }
     header { margin-bottom: 18px; }
     img.fav-place { float: left; max-width: 30%; height: auto; margin-right: 16px; margin-bottom: 8px; border-radius: 6px; }
     .item { margin: 12px 0; clear: both; }
     .label { font-weight: 700; display:block; }
-    /* Ensure each item starts on its own line even if short */
     .inline-block { display:block; }
-    /* Small helper for placeholder text */
     .placeholder { color: #666; font-style: italic; }
-    /* Make sure long content wraps nicely on small screens */
-    @media (max-width: 600px) {
-      img.fav-place { max-width: 100%; float:none; margin-right:0; margin-bottom:12px; }
-    }
   </style>
 </head>
 <body>
-  <!-- ======== HEADER: put your name as H1 and major as H2 ======== -->
   <header>
-    <h1><!-- Firstname LastInitial -->Caleb J.</h1>
-    <h2><!-- Major -->Computer Science</h2>
+    <h1>Caleb J.</h1>
+    <h2>Computer Science</h2>
   </header>
 
-  <!-- ======== IP ADDRESS ======== -->
   <section class="item">
     <span class="label">IP address:</span>
-    <span class="placeholder"><!-- Replace this with your IP address (e.g., 203.0.113.45) -->100.0.244.113</span>
+    <span class="placeholder">100.0.244.113</span>
   </section>
 
-  <!-- ======== LOCATION WHERE YOU GREW UP ======== -->
   <section class="item">
     <span class="label">Hometown:</span>
-    <span class="placeholder"><!-- Fill in a city, town or region -->Lexington, MA</span>
+    <span class="placeholder">Lexington, MA</span>
   </section>
 
-  <!-- ======== FAVORITE PLACE: image with text wrapping to the RIGHT ======== -->
   <section class="item">
     <span class="label">Lake Winnipesaukee, NH:</span>
-    <!--
-      IMPORTANT: Replace the src below with the filename you upload next to this HTML file (e.g., favplace.jpg),
-      or use an absolute URL to an image (https://...). The text that follows will wrap to the RIGHT of the image because the image is floated left.
-      Do NOT use a <table> element.
-    -->
     <img class="fav-place" src="BearIsland_compressed.jpg" alt="My favorite place">
     <p>
-      <!-- Write one or two sentences about why this is your favorite place. The text should wrap to the right of the image. -->
       I've been going to Bear Island on Lake Winnipesaukee for years now every summer. It is so beautiful and peaceful there. It's also my favorite place to go fishing!
     </p>
   </section>
 
-  <!-- ======== FAVORITE RESTAURANT LINK (open in new tab) ======== -->
   <section class="item">
     <span class="label">Favorite Restaurant: Restaurant Karla</span>
     <a class="inline-block" href="https://karla.nu/" target="_blank" rel="noopener noreferrer">Restaurant Karla</a>
     <span class="placeholder">I went to this restaurant when abroad in Copenhagen last semester and it's been my favorite ever since!</span>
   </section>
 
-  <!-- ======== SOMETHING NO ONE WOULD EXPECT ======== -->
   <section class="item">
     <span class="label">Something no one would expect about me:</span>
     <p>
